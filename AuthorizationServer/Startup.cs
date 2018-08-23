@@ -46,10 +46,12 @@ namespace AuthorizationServer
                 app.UseExceptionHandler("/Error");
             }
 
-            app.UseStaticFiles();
-            app.UseCookiePolicy();
+            //app.UseStaticFiles();
+            //app.UseCookiePolicy();
 
-            app.UseMvc();
+            //app.UseMvc();
+
+            app.UseIdentityServer();
         }
     }
 }

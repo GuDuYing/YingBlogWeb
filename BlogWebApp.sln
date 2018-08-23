@@ -5,9 +5,11 @@ VisualStudioVersion = 15.0.27703.2042
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "YingBlog.Core", "YingBlog.Core\YingBlog.Core.csproj", "{7EF21AD0-AB13-4B62-8D1A-7E40C14978B4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YingBlog.EntityFramework", "YingBlog.EntityFramework\YingBlog.EntityFramework.csproj", "{030D5B82-FEC1-4649-96FC-92CBFA0F405C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "YingBlog.EntityFramework", "YingBlog.EntityFramework\YingBlog.EntityFramework.csproj", "{030D5B82-FEC1-4649-96FC-92CBFA0F405C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AuthorizationServer", "AuthorizationServer\AuthorizationServer.csproj", "{8B826554-75C9-4F6D-900A-FFBBA74E6FF4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AuthorizationServer", "AuthorizationServer\AuthorizationServer.csproj", "{8B826554-75C9-4F6D-900A-FFBBA74E6FF4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "MSC", "MSC", "{BAF7360D-68D9-4BD4-9CC2-4481B70EB52B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
